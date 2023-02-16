@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -8,10 +9,9 @@ function Navbar() {
     <div className='container flex'>
     <img src="" alt="img" />
     <div className='links'>
-      <a> Home </a>
-      <a> Search </a>
-      <a> Profile </a>
-      <a>  </a>
+      <NavLink to='/'><a>Home</a></NavLink>
+      <NavLink to='/search'><a>Search</a></NavLink>
+      <NavLink to='/login'><a>Login</a></NavLink>
     </div>
     
      </div>

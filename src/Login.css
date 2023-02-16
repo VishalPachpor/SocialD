@@ -14,6 +14,7 @@ body{
     background:url() no-repeat center/cover;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
+    margin-top: 70px;
 }
 
 .sig{

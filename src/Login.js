@@ -15,14 +15,7 @@ const Login = () => {
             </form>
          </div>
 
-         {/* <div className='login'>
-                  <form>
-                      <label htmlFor=""> Login</label>
-                      <input type="email" name='Email' placeholder='Email' required="" />
-                      <input type="password" name='pswd' placeholder='Password' required="" />
-                      <button>Login</button>
-                  </form>
-         </div> */}
+      
 
          </div>
     </>

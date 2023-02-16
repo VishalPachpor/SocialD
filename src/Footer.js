@@ -7,8 +7,7 @@ const Footer = () => {
     <footer className='footer'>
     <div className='footer_container'>
         <div className="footer_top">
-            <div >
-                <h6 className='footer_title'>Footer1</h6>
+            <div style={{display:'flex',flexDirection:'row',justifyContent:'space-around',width:'95%'}}>
                 <ul className='footer_list-item'>
                     <a href="" className='footer_list_link'> about us </a>
                 </ul>
@@ -25,18 +24,6 @@ const Footer = () => {
             
         </div>
 
-        <hr className='footer_divider'/>
-        
-        <div className='footer_bottom'>
-            <span className='copyright'>@</span>
-            <ul className='footer_list'>
-                <li className='footer_list-item'>
-                    <a href="" className='footer_list-link'>
-                        <i className='fb'>icon</i>
-                    </a>
-                </li>
-            </ul>
-        </div>
 
     </div>
     </footer>

@@ -24,8 +24,8 @@ function TweetBox() {
     }
 
     return (
-        <div className="tweetBox">
-            <form>
+        <div className='tweetBox'>
+            <form style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                 <div className="tweetBox__input">
                 <Avatar src="https://www.pngfind.com/pngs/m/14-141135_download-mark-zuckerberg-png-image-mark-zuckerberg-transparent.png"/>
                     <textarea

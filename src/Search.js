@@ -7,10 +7,8 @@ const Search = () => {
     <div className='input-group'>
     <input type="search"
      name="Search" 
-     id="Search" />
-     <label htmlFor=""> Enter the address</label>
+     id="Search" placeholder='Enter the Address' />
     </div>
-    
     <div className='btn'>
     <button  type="submit"> Search</button>
     </div>

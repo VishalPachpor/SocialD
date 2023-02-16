@@ -14,7 +14,8 @@ nav{
     height: 56px;
     background: #6e2592;
     transition: 0.3s;
-    color:black;
+    color:white;
+    z-index: 5;
 }
 
 nav.scrolled-down {
@@ -51,4 +52,8 @@ nav img{
     align-items: center;
     justify-content: space-between;
 
+}
+.links a{
+    color: white;
+    z-index: 555566;
 }
